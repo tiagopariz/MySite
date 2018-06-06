@@ -16,9 +16,9 @@ https://meuappopensource.visualstudio.com/MyApp/_git/MySite (fetch)
 https://github.com/tiagopariz/MySite.git (push)
 
 ### Create branch
-`git checkout master`
-`git pull`
-`git checkout -b tiago-change-anything`
+`git checkout master
+git pull
+git checkout -b tiago-change-anything`
 
 ### Edit the files
 
@@ -26,10 +26,10 @@ https://github.com/tiagopariz/MySite.git (push)
 
 ### Send to repository
 
-`git status`
-`git add --all`
-`git commit --message "Description"`
-`git push`
+`git status
+git add --all
+git commit --message "Description"
+git push`
 
 ### Open the Pull request
 
@@ -37,11 +37,11 @@ tiago-change-anything --> develop
 develop --> master
 
 ### Send to GitHub
-`git checkout master`
-`git pull`
-`git remote set-url --add --push origin https://github.com/tiagopariz/MySite.git`
-`git push`
+`git checkout master
+git pull
+git remote set-url --add --push origin https://github.com/tiagopariz/MySite.git
+git push`
 
 ### Restore to defaulr
-`git remote set-url --delete --push origin https://github.com/tiagopariz/MySite.git`
-`git remote set-url --add --push origin https://meuappopensource.visualstudio.com/MyApp/_git/MySite`
+`git remote set-url --delete --push origin https://github.com/tiagopariz/MySite.git
+git remote set-url --add --push origin https://meuappopensource.visualstudio.com/MyApp/_git/MySite`
